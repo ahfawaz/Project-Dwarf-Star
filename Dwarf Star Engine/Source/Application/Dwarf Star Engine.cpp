@@ -1,7 +1,7 @@
 // Dwarf Star Engine.cpp : Defines the entry point for the application.
 //
 
-#include "stdafx.h"
+#include "../Application/stdafx.h"
 #include "Dwarf Star Engine.h"
 
 #define MAX_LOADSTRING 100
