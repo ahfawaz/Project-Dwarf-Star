@@ -8,6 +8,15 @@
     <Filter Include="Application">
       <UniqueIdentifier>{8e8d369e-9263-4c06-9a65-a75d9ca6c093}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Memory Manager">
+      <UniqueIdentifier>{0c8d4b0a-c497-4d50-9b41-6e18f9c6c03d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messenger Manager">
+      <UniqueIdentifier>{c3abe824-5f4e-4472-8fac-3a782299bdbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utlities">
+      <UniqueIdentifier>{57b82c84-2f5e-4dda-9e5e-7cc4443c90e2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -19,6 +28,12 @@
     <ClCompile Include="Source\Application\stdafx.cpp">
       <Filter>Application</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Memory Manager\MemoryManager.cpp">
+      <Filter>Memory Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utilities\Util.cpp" />
+    <ClCompile Include="Source\Application\EngineApplication.cpp" />
+    <ClCompile Include="Source\Utilities\ErrorMessage.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Application\Dwarf Star Engine.h">
@@ -33,6 +48,14 @@
     <ClInclude Include="Source\Application\targetver.h">
       <Filter>Application</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Memory Manager\MemoryManager.h">
+      <Filter>Memory Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utilities\Util.h">
+      <Filter>Utlities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Application\EngineApplication.h" />
+    <ClInclude Include="Source\Utilities\ErrorMessage.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Source\Application\Dwarf Star Engine.ico">

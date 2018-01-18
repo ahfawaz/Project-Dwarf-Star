@@ -139,14 +139,22 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Source\Utilities\ErrorMessage.cpp" />
+    <ClCompile Include="Source\Application\EngineApplication.cpp" />
     <ClCompile Include="Source\Application\Dwarf Star Engine.cpp" />
     <ClCompile Include="Source\Application\stdafx.cpp" />
+    <ClCompile Include="Source\Memory Manager\MemoryManager.cpp" />
+    <ClCompile Include="Source\Utilities\Util.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Source\Utilities\ErrorMessage.h" />
+    <ClInclude Include="Source\Application\EngineApplication.h" />
     <ClInclude Include="Source\Application\Dwarf Star Engine.h" />
     <ClInclude Include="Source\Application\Resource.h" />
     <ClInclude Include="Source\Application\stdafx.h" />
     <ClInclude Include="Source\Application\targetver.h" />
+    <ClInclude Include="Source\Memory Manager\MemoryManager.h" />
+    <ClInclude Include="Source\Utilities\Util.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Source\Application\Dwarf Star Engine.ico" />

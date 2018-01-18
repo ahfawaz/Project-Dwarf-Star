@@ -16,6 +16,15 @@
 #include <malloc.h>
 #include <memory.h>
 #include <tchar.h>
+using namespace std;
 
 
 // TODO: reference additional headers your program requires here
+#include <d3d12.h>
+#pragma comment(lib, "d3d12")
+#include <d3d12sdklayers.h>
+
+#include <DirectXMath.h>
+#include <DirectXColors.h>
+#include <DirectXCollision.h>
+#include <DirectXPackedVector.h>
