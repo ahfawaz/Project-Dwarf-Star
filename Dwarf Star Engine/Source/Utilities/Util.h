@@ -1,5 +1,6 @@
 #pragma once
 #include "ErrorMessage.h"
+#include "ThreadManager.h"
 
 namespace DWS_Util
 {
@@ -7,6 +8,7 @@ namespace DWS_Util
 
 	//Useful Defines
 #define SHUTDOWN(x) if(x) x->Shutdown(); delete x; x = nullptr
+#define DELETE(x)	if(x) delete x; x = nullptr
 
 	//Enums used by all utilities
 	enum eErrors { BAD_INIT = 2001, };
